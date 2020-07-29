@@ -1,0 +1,57 @@
+.button > a {
+    color: white;
+}
+
+.Card {
+    margin-bottom: 25px;
+    border: 1px solid var(--border-col);
+}
+
+.Tile > img {
+    width: 100%;
+}
+
+.CardDetails {
+    padding: 5%;
+    padding-bottom: 5px;
+}
+
+.CardDetails .title {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: var(--sec);
+}
+
+.CardDetails .description {
+    margin: 20px 0;
+}
+
+.CardDetails .button {
+    border-radius: 30px;
+    background-color: var(--prim);
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    margin: 20px 0 10px 0;
+}
+
+.CardDetails .button:hover {
+    cursor: pointer;
+}
+
+.Ribbon {
+    display: flex;
+}
+
+.price-tags {
+    padding-left: 5%;
+    margin-bottom: 10px;
+}
+
+.Ribbon > li {
+    margin-right: 20px;
+}

@@ -1,0 +1,40 @@
+.App {
+    padding: 0 5% 0 5%;
+} 
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: 100vh;
+}
+
+.main-category {
+    text-align: center;
+    color: var(--sec);
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.sub-category {
+    padding: 15px 0;
+    font-weight: bold;
+    color: var(--main);
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 700px){
+    .row > * {
+        flex-basis: 49%;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .row > * {
+        flex-basis: 32.33%;
+    }
+}
