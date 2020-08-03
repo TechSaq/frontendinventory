@@ -37,8 +37,51 @@ ul > li {
     color: var(--sec);
 }
 
-.menu{
+.menu {
     display: none;
+}
+
+.dropdownbg  {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    transition: all ease-in-out 0.6s;
+    color: white;
+    box-shadow: 0px 0px 12px rgba(128, 128, 128, 0.5);
+    /* z-index: -10; */
+}
+
+.dropdown {
+    transition: all ease-in-out 0.8s;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    background: white;
+    position: absolute;
+}
+
+.dropdown-arrow {
+    z-index: 10;
+    transform: rotate(45deg);
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 10%;
+    box-shadow: 0px 0px 12px rgba(128, 128, 128, 0.5);
+}
+
+.dropdown li>a {
+    font-size: 0.9rem;
+    color: rgba(80, 80, 80, 0.726);
+}
+
+.hide {
+    opacity: 0;
 }
 
 @media screen and (max-width: 700px){

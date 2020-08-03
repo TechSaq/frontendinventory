@@ -17,7 +17,9 @@ class Card extends Component {
 function Tile(props) {
     return (
         <div className="Tile">
-          <img src={props.src} alt="screenshot"/>  
+          <a href="#">
+            <img src={props.src} alt="screenshot" />
+          </a>  
         </div>
     )
 }
@@ -26,7 +28,9 @@ function CardDeatils(props) {
   return (
     <div className="CardDetails">
       <Ribbon className="tech-stack-tags"></Ribbon>
-      <div className="title">freeCodeCamp</div>
+      <a href="#" className="title">
+        freeCodeCamp
+      </a>
       <div className="description">
         lorom ipsum donor sit amet. lorom ipsum donor sit amet.
         lorom ipsum donor sit amet. lorom ipsum donor sit amet.
