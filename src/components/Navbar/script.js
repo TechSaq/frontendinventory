@@ -4,16 +4,16 @@ function handleMenu() {
     const menu = document.querySelector('.menu-list');
  
     menuIcon.addEventListener('click', () => {
-        closeIcon.classList.remove('hide');
-        menuIcon.classList.add('hide');
-        menu.classList.add('show');
+        closeIcon.classList.remove('hide-d');
+        menuIcon.classList.add('hide-d');
+        menu.classList.add('show-d');
         document.body.classList.add('fixed');
     });
 
     closeIcon.addEventListener('click', () => {
-        closeIcon.classList.add('hide');
-        menuIcon.classList.remove('hide');
-        menu.classList.remove('show');
+        closeIcon.classList.add('hide-d');
+        menuIcon.classList.remove('hide-d');
+        menu.classList.remove('show-d');
         document.body.classList.remove('fixed');
     });   
 }
@@ -38,7 +38,6 @@ function handleMouseLeave() {
 
     dropdown.classList.add('hide');
     dropdownbg.classList.add('hide');
-
 }
 
 function handleDropdown() {

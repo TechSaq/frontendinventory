@@ -63,7 +63,7 @@ function NavMenuList() {
             <div className="menu menu-icon">
                 <img src="/images/icons/menu-icon.svg" alt=""/>
             </div>
-            <div className="menu close-icon hide">
+            <div className="menu close-icon hide-d">
                 <img src="/images/icons/close-icon.png" alt="" width="30" height="30"/>
             </div>
         </>

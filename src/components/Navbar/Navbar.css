@@ -115,13 +115,21 @@ ul > li {
         color: white;
         font-size: 1.4rem;
     }
-    .hide {
+    .hide-d {
         display: none;
     }
-    .show {
+    .show-d {
         display: block;
     }
     .fixed {
         position: fixed;
+    }
+    .hide{
+        display: none;
+    }
+    .dropdown {
+        position: relative;
+        width: 100vw;
+        color: white;
     }
 }
