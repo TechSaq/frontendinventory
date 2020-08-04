@@ -1,0 +1,68 @@
+[
+    {
+    "Cards" : [
+        {
+            "id": 1,
+            "category": "Launching",
+            "sub-category": "Videos",
+            "tech-stack-tags": [],
+            "title": "",
+            "description": "",
+            "link": "",
+            "price-tags": []
+        },
+        {
+            "id": 2,
+            "category": "Launching",
+            "sub-category": "Videos",
+            "tech-stack-tags": [],
+            "title": "",
+            "description": "",
+            "link": "",
+            "price-tags": []
+        },
+        {
+            "id": 3,
+            "category": "Launching",
+            "sub-category": "Videos",
+            "tech-stack-tags": [],
+            "title": "",
+            "description": "",
+            "link": "",
+            "price-tags": []
+        },
+        {
+            "id": 4,
+            "category": "Launching",
+            "sub-category": "Videos",
+            "tech-stack-tags": [],
+            "title": "",
+            "description": "",
+            "link": "",
+            "price-tags": []
+        },
+        {
+            "id": 5,
+            "category": "Launching",
+            "sub-category": "Videos",
+            "tech-stack-tags": [],
+            "title": "",
+            "description": "",
+            "link": "",
+            "price-tags": []
+        }
+    ]
+    },
+    {
+        "categories" : ["Learning", "Launching", "Workflow"]
+    },
+    {
+        "sub-categories" : {
+            "Launching" : ["Deployment","Reporting","Testing and Analysis"],
+            "Learning" : ["Blogs and Communities", "Interactive Tutorials", "Online Courses", "Podcasts", "Problem Solving", "Videos"],
+            "Workflow" : ["Colors", "Development Tools", "Framework and Libraries", "Graphics", 
+            "Inspirations", "Media", "Resources", "Typography", "Utilities"]
+        }
+    }
+]
+
