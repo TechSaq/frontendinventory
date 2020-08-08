@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 import './Card.css'
 
 class Card extends Component {
+  
   render() {
+    const details = this.props.details
+
     return (
         <div className="Card">
             <Tile src="/images/launching/deployment/heroku.png"></Tile>
-            <CardDeatils></CardDeatils>
+            <CardDeatils details={details}></CardDeatils>
             <Ribbon className="price-tags"></Ribbon>
         </div>
     );
@@ -25,11 +28,13 @@ function Tile(props) {
 }
 
 function CardDeatils(props) {
+  // console.log(props["details"].title)
+
   return (
     <div className="CardDetails">
       <Ribbon className="tech-stack-tags"></Ribbon>
       <a href="#" className="title">
-        freeCodeCamp
+        {props["details"].title}
       </a>
       <div className="description">
         lorom ipsum donor sit amet. lorom ipsum donor sit amet.

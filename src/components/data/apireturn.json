@@ -1,66 +1,180 @@
 [
     {
-    "Cards" : [
-        {
-            "id": 1,
-            "category": "Launching",
-            "sub-category": "Videos",
-            "tech-stack-tags": [],
-            "title": "",
-            "description": "",
-            "link": "",
-            "price-tags": []
+    "cards" : {
+        "launching" : {
+            "deployment" : [
+                {
+                "id": 1,
+                "tech-stack-tags": [],
+                "title": "launch-deploy-title-1",
+                "description": "",
+                "link": "",
+                "price-tags": []
+                },
+                {
+                    "id": 2,
+                    "tech-stack-tags": [],
+                    "title": "launch-deploy-title-2",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                },
+                {
+                    "id": 3,
+                    "tech-stack-tags": [],
+                    "title": "launch-deploy-title-3",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                }
+            ],
+            "reporting" : [
+                {
+                    "id": 4,
+                    "tech-stack-tags": [],
+                    "title": "launch-report-title-1",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                },
+                {
+                    "id": 5,
+                    "tech-stack-tags": [],
+                    "title": "launch-report-title-2",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                }
+            ]
         },
-        {
-            "id": 2,
-            "category": "Launching",
-            "sub-category": "Videos",
-            "tech-stack-tags": [],
-            "title": "",
-            "description": "",
-            "link": "",
-            "price-tags": []
+        "learning" : {
+            "videos" : [
+                {
+                    "id": 6,
+                    "tech-stack-tags": [],
+                    "title": "learn-videos-title-1",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                },
+                {
+                    "id": 7,
+                    "tech-stack-tags": [],
+                    "title": "learn-videos-title-2",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                },
+                {
+                    "id": 8,
+                    "tech-stack-tags": [],
+                    "title": "learn-videos-title-3",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                }
+            ],
+            "podcasts" : [
+                {
+                    "id": 9,
+                    "tech-stack-tags": [],
+                    "title": "learn-pod-title-2",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                }
+            ],
+            "interactive" : [
+                {
+                    "id": 10,
+                    "tech-stack-tags": [],
+                    "title": "learn-inter-title-1",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                },
+                {
+                    "id": 11,
+                    "tech-stack-tags": [],
+                    "title": "learn-inter-title-2",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                },
+                {
+                    "id": 12,
+                    "tech-stack-tags": [],
+                    "title": "learn-inter-title-3",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                },
+                {
+                    "id": 13,
+                    "tech-stack-tags": [],
+                    "title": "learn-inter-title-4",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                }
+            ]
         },
-        {
-            "id": 3,
-            "category": "Launching",
-            "sub-category": "Videos",
-            "tech-stack-tags": [],
-            "title": "",
-            "description": "",
-            "link": "",
-            "price-tags": []
-        },
-        {
-            "id": 4,
-            "category": "Launching",
-            "sub-category": "Videos",
-            "tech-stack-tags": [],
-            "title": "",
-            "description": "",
-            "link": "",
-            "price-tags": []
-        },
-        {
-            "id": 5,
-            "category": "Launching",
-            "sub-category": "Videos",
-            "tech-stack-tags": [],
-            "title": "",
-            "description": "",
-            "link": "",
-            "price-tags": []
+        "workflow" : {
+            "colors" : [
+                {
+                    "id": 14,
+                    "tech-stack-tags": [],
+                    "title": "work-colors-title-1",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                },
+                {
+                    "id": 15,
+                    "tech-stack-tags": [],
+                    "title": "work-colors-title-2",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                }
+            ],
+            "media" : [
+                {
+                    "id": 16,
+                    "tech-stack-tags": [],
+                    "title": "work-media-title-1",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                },
+                {
+                    "id": 17,
+                    "tech-stack-tags": [],
+                    "title": "work-media-title-2",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                },
+                {
+                    "id": 18,
+                    "tech-stack-tags": [],
+                    "title": "work-media-title-3",
+                    "description": "",
+                    "link": "",
+                    "price-tags": []
+                }
+            ]
         }
-    ]
+    }
     },
     {
-        "categories" : ["Learning", "Launching", "Workflow"]
+        "categories" : ["learning", "workflow", "launching"]
     },
     {
         "sub-categories" : {
-            "Launching" : ["Deployment","Reporting","Testing and Analysis"],
-            "Learning" : ["Blogs and Communities", "Interactive Tutorials", "Online Courses", "Podcasts", "Problem Solving", "Videos"],
-            "Workflow" : ["Colors", "Development Tools", "Framework and Libraries", "Graphics", 
+            "launching" : ["Deployment","Reporting","Testing and Analysis"],
+            "learning" : ["Blogs and Communities", "Interactive Tutorials", "Online Courses", "Podcasts", "Problem Solving", "Videos"],
+            "workflow" : ["Colors", "Development Tools", "Framework and Libraries", "Graphics", 
             "Inspirations", "Media", "Resources", "Typography", "Utilities"]
         }
     }
