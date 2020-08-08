@@ -5,6 +5,7 @@
 .Card {
     margin-bottom: 25px;
     border: 1px solid var(--border-col);
+    margin-right: 1%;
 }
 
 .Tile {
